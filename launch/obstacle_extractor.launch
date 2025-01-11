@@ -2,11 +2,11 @@
 <launch>
 
   <node name="obstacle_extractor" pkg="obstacle_detector" exec="obstacle_extractor_node">
-    <remap from="/scan" to="/merged_scan" />
+    <remap from="/scan" to="/scan" />
     <remap from="/pcl" to="/scan_filtered" />
     <param name="active"               value="true"/>
-    <param name="use_scan"             value="false"/>
-    <param name="use_pcl"              value="true"/>
+    <param name="use_scan"             value="true"/>
+    <param name="use_pcl"              value="false"/>
     <param name="use_sim_time"         value="true"/>
 
     <param name="use_split_and_merge"    value="true"/>
@@ -14,7 +14,7 @@
     <param name="discard_converted_segments" value="true"/>
     <param name="transform_coordinates"  value="true"/>
 
-    <param name="min_group_points"     value="10"/>
+    <param name="min_group_points"     value="1"/>
 
     <param name="max_group_distance"   value="0.1"/>
     <param name="distance_proportion"  value="0.00628"/>
