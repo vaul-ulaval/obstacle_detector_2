@@ -1,0 +1,11 @@
+std_msgs/Header header
+
+# Reperes for recalage
+obstacle_detector/CircleObstacle repere_top_right
+obstacle_detector/CircleObstacle repere_top_left
+obstacle_detector/CircleObstacle repere_bottom_right
+obstacle_detector/CircleObstacle repere_bottom_left
+
+obstacle_detector/CircleObstacle obstacle_in_snow
+
+obstacle_detector/CircleObstacle other_obstacle
