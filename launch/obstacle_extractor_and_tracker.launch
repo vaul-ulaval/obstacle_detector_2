@@ -29,7 +29,7 @@
   </node>
   
   <node name="obstacle_tracker" pkg="obstacle_detector" exec="obstacle_tracker_node">
-    <remap from="/odom" to="/diff_drive/odom" />
+    <remap from="/odom" to="/odom" />
 
     <param name="active"                  value="true"/>
 

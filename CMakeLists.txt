@@ -31,7 +31,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CircleObstacle.msg"
   "msg/Obstacles.msg"
   "msg/SegmentObstacle.msg"
-  "msg/FilteredObstacles.msg"
   DEPENDENCIES geometry_msgs std_msgs builtin_interfaces 
 )
 
